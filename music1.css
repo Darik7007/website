@@ -1,0 +1,259 @@
+body {
+  background-image: url(images/bg1.jpg);
+  background-size: cover;
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+  color: #F7F7F7;
+  text-shadow: 1px 1px 0.5px rgb(0, 0, 0);
+}
+
+#m1login_body{
+  opacity: 0.7;
+}
+
+#logo{
+  float: left;
+  cursor: pointer;
+}
+#logo:hover{
+  border-color:white;
+  border-width: 5px;
+}
+header {
+  background-color: #333;
+  color: #F7F7F7;
+  padding: 20px;
+  text-align: center;
+  opacity: 0.8;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+h1{
+  display: inline-block;
+}
+
+header h1:hover{
+  color: #d4d4d4;
+  text-shadow: 3px 1px 8.5px #CCEABB  ;
+}
+
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+}
+
+#login_button {
+  border-width: 1px;
+  border-radius: 30px;
+  background-color: #FDCB9E;
+  color: #3F3F44;
+  padding: 12px;
+  float: right;
+  cursor: pointer;
+}
+#login_button:hover {
+  border-color: #fff;
+  color: beige;
+  background-color: #f4a561;
+  border-style: solid;
+}
+#login_button:active{
+  opacity: 0.6;
+  padding: 11px;
+
+}
+#about{
+  padding-top: 120px;
+}
+section {
+  padding: 40px;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+form input, form textarea {
+  font-size: 18px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #CCEABB;
+  color: #fff;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  vertical-align: bottom;
+}
+#login_div{
+  padding-top: 140px;
+  text-align: center;
+}
+#login_text{
+  font-size: 27.2px;
+  margin-bottom: 100px;
+  color: rgb(0, 136, 233);
+
+}
+#emil_text{
+  margin-top: 40px;
+}
+
+#login_page_login_button{
+  border-width: 1px;
+  border-radius: 30px;
+  background-color: rgb(0, 136, 233);
+  color: #fff;
+  padding: 12px;
+  float: auto;
+  cursor: pointer;
+}
+
+img.d-block{
+  align-items: center;
+  height: 900px;
+  width: auto;
+}
+
+li.nav-item {
+
+  float: left;
+  color: #ffffff;
+}
+
+a.nav-link {
+  display: block;
+  padding: 14px;
+}
+
+li a.nav-link {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 26px 16px;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+li a.nav-link:hover {
+  background-color: #fbcba1;
+  color: #3F3F44;
+}
+
+li a.nav-link:active {
+  color: #1c1c21;
+  background-color: #aae588;
+}
+
+h2{
+  padding-left: 30px;
+  color: #fb8f30;
+}
+
+div.Group-box{
+  border: #ffffff 5px solid;
+  padding: 10px 20px 60px 20px;
+  /* background-color: #333; */
+  margin-bottom: 10px;
+  
+}
+
+legend {
+  border-bottom: #ffffff 2px dashed;
+  /* background-color: #4f4d4d; */
+  color: #f4a561;
+  font-weight: bold;
+}
+
+h5{
+color: #FDCB9E;
+}
+
+p{
+  color: #d7b79b;
+}
+
+h2.about{
+  color: #FDCB9E;
+}
+
+h2.services{
+  color: #f6c499;
+}
+
+label{
+  color: #92d5db;
+}
+
+section.about{
+  background-color: #3F3F44;
+}
+
+div.card{
+  background-color: #3f3f44;
+}
+
+h6{
+  color: #fb9e4d;
+}
+
+/* img.card-img-top{
+align-items: center;
+  height: 900px;
+  width: auto;
+}
+div.card{
+  height: fit-content;
+  width: fit-content;
+  flex-flow: row;
+} */
+
+.carousel-inner{
+  padding-left: 90px;
+}
+

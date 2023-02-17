@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <a href="index.html"><title>DARIK Music</title></a>
+    <link rel="stylesheet" type="text/css" href="music1.css">
+  </head>
+  <body>
+    <header>
+      <img id="logo" src="images/logo.png" href="music1.html" height="80px" width="100px">           
+      <h1 href="music1.html">Darik Music</h1>
+      <a href="m1login.html"><button id="login_button" onclick="href='m1login.html'">Log In</button></a>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#artists">Artists</a></li>
+          <li><a href="#contact">Contact</a></li>
+          
+        </ul>
+      </nav>
+      
+    </header>
+    <main>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>Music Company is a leading music management and production company, providing a wide range of services for artists, bands, and musicians. With years of experience in the industry, we have a proven track record of success in developing and promoting talented artists, helping them achieve their full potential and reach their goals.</p>
+      </section>
+      <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+          <li>Artist Management</li>
+          <li>Music Production</li>
+          <li>Live Performance Booking</li>
+          <li>Marketing and Promotion</li>
+          <li>Sound Engineering and Recording</li>
+        </ul>
+      </section>
+      <section id="artists">
+        <h2>Our Artists</h2>
+        <p>We represent a diverse roster of talented artists, from emerging to established, across a variety of genres including rock, pop, hip-hop, and more. Check out our artist profiles to learn more about them and their music.</p>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit-form.php" method="post">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button id="submit" type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright &copy; Music Company 2023</p>
+    </footer>
+  </body>
+</html>
